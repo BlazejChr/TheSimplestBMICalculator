@@ -7,9 +7,6 @@ liczenie_bmi = waga / (wzrost * wzrost)
 zaokraglone_bmi = round(liczenie_bmi, 1)
 
 #wynik
-print(f"Oto twoje BMI: {zaokraglone_bmi}")
-
-#ify
 if zaokraglone_bmi < 18.5:
     print (f"Oto twoje BMI: {zaokraglone_bmi}, masz niedowagę")
 
